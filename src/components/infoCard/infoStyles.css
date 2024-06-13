@@ -1,0 +1,123 @@
+   .info_container {
+    padding: 2rem 10rem;
+    background-image: url("../../assets/default.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+   
+  .info_image_section,
+  .info_text_section {
+    flex-basis: 45%;
+    margin: 0 2rem;
+  }
+  
+  .info_image_section img {
+    width: 430px;
+    height: 250px;
+    margin-top: 30px;   
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    overflow: visible;
+    object-fit:contain;
+  }
+  
+   .info_text_section {
+    text-align:left;
+   }
+   
+  .header_text{
+    color:#1f4b43;
+    font-size: medium;
+    padding-left: 21px;
+  } 
+  .info_title{
+    color:#1f4b43;
+    font-size: medium;
+    padding-right: 75px;
+  } 
+  
+  .info_text_section div p {
+    color: #1f4b43;    
+    font-size: 30px;
+    font-weight:lighter;
+    padding-right: 10rem;
+    margin: 0, 0 1rem, 0;
+  }
+  .info_text_section div span { 
+    color: #1f4b43;    
+    font-size: 33px;
+    font-weight: bolder;
+    /* text-align: left; */
+    
+  }  
+.info_text_section {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;  
+    margin-top:-14rem;
+    padding-left: 270px;
+    
+}
+  .info span{
+    text-align:left;
+  }
+  
+  @media (max-width: 841px) {
+    .info_container {
+      padding: 2rem;
+      height: max-content;
+      flex-direction: column;
+       
+    }
+  
+    .info_text_section {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;          
+      margin-top: 5px;
+      padding: 0%;
+     
+    }   
+  
+    .info_image_section,
+    .info_text_section {
+      flex-basis: 100%;
+    } 
+
+    .info_text_section div span {
+      font-size: 28px; 
+     
+    }  
+  
+    .info_image_section img {
+        width: 430px;
+        height: 250px;
+        margin-top: 30px;   
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        overflow: visible;
+        object-fit:contain;
+      }
+      
+    .info_image_section {
+      width: 80vw;
+    }
+    .header_text{
+      font-size: 10px;
+      margin-left:-118px;
+    }
+    .info_title{
+      color:#1f4b43;
+      font-size: medium;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center
+    
+    } 
+  }

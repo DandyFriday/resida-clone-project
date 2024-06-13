@@ -1,0 +1,138 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .find_home_container {
+    width: 100%;
+  }
+  
+  .parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popular {
+    padding: 2rem 0;
+  }
+  
+  .find_home_wrapper {
+    width: 100%;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  
+  .find_home_wrapper > div > h1 {
+    color: #1f4b43;
+  }
+  
+  .boxes_parent_container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+    padding: 1rem 0;
+    margin: 0 auto;
+  }
+  .first_box_div{
+    border-radius:10px;
+  
+  }
+  .first_box_div img{
+    border-radius:10px;
+    
+
+  }
+  .second_box_div img{
+    border-radius:10px;
+    gap: 5rem;
+  }
+   
+  .second_boxes_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius:10px;
+  }
+  .third_boxes_div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+   
+  }
+  .agege{
+    background-color:rgb(78, 72, 73);
+    color:rgb(243, 235, 235);
+    border-radius:60px;
+    width:12rem;
+    height:2.5rem;
+    position:relative;
+    bottom:4rem;
+    margin:5px;
+    font-size:9px;
+    
+
+  }
+  .lekki{
+    background-color:rgb(130, 161, 175);
+    color:rgb(243, 235, 235);
+    border-radius:60px;
+    width:16rem;
+    height:3rem;
+    position:relative;
+    bottom:4rem;
+    margin:5px;
+    font-size:9px;
+  }
+  .yaba{
+    background-color:rgb(100, 140, 163);
+    color:rgb(243, 235, 235);
+    border-radius:60px;
+    width:16rem;
+    height:2.5rem;
+    position:relative;
+    bottom:5.3rem;
+    margin:6px;
+    font-size:9px;   
+
+  }
+  .obalende{
+    background-color:rgb(78, 72, 73);
+    color:rgb(207, 205, 205);
+    border-radius:60px;
+    width:12rem;
+    height:2.5rem;
+    position:relative;
+    bottom:4rem;
+    margin:5px;
+    font-size:9px;
+  }
+  .gbagada{
+    background-color:rgb(75, 71, 71);
+    color:rgb(207, 205, 205);
+    border-radius:60px;
+    width:12rem;
+    height:2.5rem;
+    position:relative;
+    bottom:4rem;
+    margin:5px;
+    font-size:9px;
+    text-align:center;
+  }
+  .prop,
+  .oba{
+    padding-left: 10px;
+  }
+  @media (max-width: 841px) {
+    .boxes_parent_container {
+      width: 100%;
+      margin-left: -0.9rem;
+      display:grid;      
+      overflow-x:scroll;
+      flex-direction: grid;
+      
+    }
+  }
