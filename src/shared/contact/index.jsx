@@ -145,7 +145,7 @@ const ContactPage = () => {
                       padding: "7px 12px",
                       width: "226px",
                     }}
-                    btnName={"Send message"}
+                    btn_name={"Send message"}
                     rightIcon={
                       <svg
                         width="16"

@@ -27,7 +27,7 @@ const Property = ({circle}) => {
         <div className="guides">
           <span>Do you have a property?</span>
         </div>
-        <div>Provide accommodation <br/>here in Lagos</div>    
+        <div className="accommodation">Provide accommodation <br/>here in Lagos</div>    
         
         <div className="prop_text_body">
           Own a property in Lagos? Join our platform to effortlessly list your<br/>

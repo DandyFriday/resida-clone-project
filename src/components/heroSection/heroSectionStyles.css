@@ -17,16 +17,16 @@
 }
 
 .hero_section_content p{
-    font-size: 45px;
+    font-size: 40px;
     color: #1f4b43;
     text-align: center;
-    font-weight: bold;
+    font-weight:bolder;
     font-family: 'Times New Roman', Times, serif;
 
 }
 
 .hero_section_content span{
-    font-size: 16px;
+    font-size: 14px;
     color:#35384b; 
     padding: 0 1rem;
     align-items: center;  
@@ -65,11 +65,12 @@
 }
 
 .hero_section_content p{
-    font-size: 40px;
+    font-size: 30px;
 }
 
 .hero_section_content span{  
     padding: 0 1rem;
+    font-size: 12px;
 }
 
 .btn_container{

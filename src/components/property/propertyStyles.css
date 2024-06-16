@@ -20,7 +20,7 @@
   .prop_text_section {
     text-align: left;
     /* padding-left: 23px; */
-    margin-left: 15rem;      
+    margin-left: 20rem;      
     margin: 10 0 1rem 0;
     text-align:left;
   
@@ -90,7 +90,11 @@
   .prop_cta{
     padding-top: 10px;
   }
-  
+  .accommodation{
+    font-size:larger;
+    color: #1f4b43;
+    font-weight: bold;
+  }
   
   @media (max-width: 841px) {
     .prop_container {
@@ -103,6 +107,7 @@
       display: flex;
       align-items:start;
       flex-direction: column;
+      margin-left: 10rem;
       /* justify-content: center; */
       
     }
@@ -138,5 +143,9 @@
       
     .prop_image_section {
       width: 80vw;
+    }
+    .prop_text_body{
+      font-size: 14px;
+
     }
   }
