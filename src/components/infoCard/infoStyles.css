@@ -105,19 +105,19 @@
       }
       
     .info_image_section {
-      width: 80vw;
+      width: 80vw;             
     }
     .header_text{
       font-size: 10px;
       margin-left:-118px;
     }
-    .info_title{
+    .info_title{           
       color:#1f4b43;
       font-size: medium;
       display: flex;
       align-items: center;
       justify-content: center;
-      text-align: center
-    
+      text-align: center 
+       
     } 
   }
